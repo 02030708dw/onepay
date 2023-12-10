@@ -1,0 +1,1 @@
+function toMsecs(t){var e=t.match(/\d+/g);return new Date(e[0],e[1]-1,e[2],+e[3]-8,e[4],e[5]).getTime()}$(document).ready(function(){Date.parse=function(t){if("string"==typeof t)return toMsecs(t)}});
