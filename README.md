@@ -1,5 +1,11 @@
 # toptuna-vue
 
+
+
+## node版本 12 - 14
+
+
+
 ## Project setup
 ```
 npm install
